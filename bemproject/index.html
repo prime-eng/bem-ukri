@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM UKRI | Badan Eksekutif Mahasiswa</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar-container">
+        <nav class="navbar">
+            <div class="logo fade-in-left" style="--anim-delay: 0.1s;">
+                <img src="bemlogo.jpeg" alt="Logo" width="45">
+                <h1>BEM <span>UKRI</span></h1>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-item">Beranda</a></li>
+                <li><a href="#visi-misi" class="nav-item">Visi & Misi</a></li>
+                <li><a href="#tupoksi" class="nav-item">Tupoksi</a></li>
+                <li><a href="#struktur" class="nav-item">Struktur</a></li>
+                <li><a href="#galeri" class="nav-item">Galeri</a></li>
+            </ul>
+
+            <div class="nav-action fade-in-right" style="--anim-delay: 0.1s;">
+                <a href="#aspirasi" class="btn-aspirasi">Aspirasi Online</a>
+                <a href="login.html" class="btn-login-nav" title="Admin Login">
+                    <i class="fas fa-user-shield"></i>
+                </a>
+            </div>
+
+            <div class="mobile-menu-btn" id="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section zoom-in">
+            <div class="hero-overlay"></div> <div class="hero-content">
+                <h2 class="fade-in" style="--anim-delay: 0.3s;">Selamat Datang di Portal Resmi</h2>
+                <h3 class="fade-in" style="--anim-delay: 0.5s;">BEM KEMA UKRI 2024</h3>
+                <p class="fade-in" style="--anim-delay: 0.7s;">Mewujudkan sinergi mahasiswa yang adaptif, solutif, dan berintegritas.</p>
+                <div class="hero-btns fade-in" style="--anim-delay: 0.9s;">
+                    <a href="#visi-misi" class="btn-secondary">Tentang Kami</a>
+                    <a href="#aspirasi" class="btn-outline">Suarakan Aspirasi</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="visi-misi" class="section fade-in">
+            <div class="container">
+                <h2 class="section-title">Visi & Misi</h2>
+                <div class="content-card">
+                    <p>Konten visi dan misi kabinet Sinergi Bangsa...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tupoksi" class="section slide-up">
+            <div class="container">
+                <h2 class="section-title">Tugas Pokok & Fungsi</h2>
+                <div class="content-card">
+                    <p>Penjelasan mengenai landasan gerak organisasi...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="struktur" class="section zoom-in">
+            <div class="container">
+                <h2 class="section-title">Struktur Organisasi</h2>
+                <div class="content-card">
+                    <p>Bagan Kepengurusan BEM KEMA UKRI Periode 2024/2025.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeri" class="section fade-in">
+            <div class="container">
+                <h2 class="section-title">Galeri Kegiatan</h2>
+                <div class="content-card">
+                    <p>Dokumentasi program kerja yang telah terlaksana.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="aspirasi" class="section slide-up">
+            <div class="container">
+                <h2 class="section-title">Aspirasi Online</h2>
+                <div class="content-card">
+                    <p>Punya keluhan atau ide untuk kampus? Sampaikan secara anonim di sini.</p>
+                    <br>
+                    <a href="#" class="btn-aspirasi">Buka Form Aspirasi</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>BEM UKRI</h3>
+                <p>Universitas Kebangsaan Republik Indonesia</p>
+                <p><i class="fas fa-map-marker-alt"></i> Bandung, Jawa Barat</p>
+            </div>
+            <div class="footer-socials">
+                <a href="https://instagram.com/dpmkemaukri" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 BEM UKRI. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
